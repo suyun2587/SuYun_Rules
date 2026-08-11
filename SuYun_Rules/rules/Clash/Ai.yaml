@@ -1,0 +1,79 @@
+# NAME: Ai
+# UPDATED: 2026-03
+payload:
+  # OpenAI / ChatGPT
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,openaicom.imgix.net
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+
+  # Microsoft Copilot / Bing AI
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,edgeservices.bing.com
+  - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN-SUFFIX,bingviz.microsoft.net
+  - DOMAIN-SUFFIX,bingviz.microsoftapp.net
+
+  # Anthropic Claude
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+
+  # Perplexity
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,perplexityusercontent.com
+
+  # Poe (Quora AI)
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,poecdn.net
+
+  # Meta AI
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,ai.meta.com
+
+  # Cursor / AI IDE
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,api.cursor.sh
+  - DOMAIN-SUFFIX,api2.cursor.sh
+
+  # Character.AI
+  - DOMAIN-SUFFIX,character.ai
+
+  # Midjourney
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+
+  # Stability AI
+  - DOMAIN-SUFFIX,stability.ai
+
+  # Runway
+  - DOMAIN-SUFFIX,runwayml.com
+
+  # HuggingFace
+  - DOMAIN-SUFFIX,huggingface.co
+
+  # General AI Dependence
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com

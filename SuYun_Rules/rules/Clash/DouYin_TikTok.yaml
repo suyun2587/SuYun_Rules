@@ -1,0 +1,64 @@
+# NAME: DouYin_TikTok
+# UPDATED: 2026-03
+payload:
+  # Main Domains
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,tiktokmusic.app
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,muscdn.com
+
+  # Douyin CDN
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+
+  # Core SDK
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,isnssdk.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,sgpstatp.com
+
+  # Backend Services
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,byteintlapi.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ttwebview.com
+
+  # Related Services
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN-SUFFIX,toutiao.com
+
+  # Specific Domains
+  - DOMAIN,lf3-static.bytednsdoc.com
+  - DOMAIN,v5-dy-o-abtest.zjcdn.com
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN,trae-api-sg.mchost.guru
+
+  # Keywords
+  - DOMAIN-KEYWORD,douyin
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,bytedance
+  - DOMAIN-KEYWORD,snssdk
+
+  # Process
+  - PROCESS-NAME,com.zhiliaoapp.musically

@@ -1,0 +1,104 @@
+# NAME: Google
+# UPDATED: 2026-03
+payload:
+  # Google Core
+  - DOMAIN,voice.telephony.goog
+  - DOMAIN-SUFFIX,abc.xyz
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,androidtv.com
+  - DOMAIN-SUFFIX,appspot.com
+  - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,blogspot.com
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromebook.com
+  - DOMAIN-SUFFIX,chromecast.com
+  - DOMAIN-SUFFIX,chromeos.dev
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,firebaseapp.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,g.cn
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,g.dev
+  - DOMAIN-SUFFIX,g.page
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,googleapis-cn.com
+  - DOMAIN-SUFFIX,googleapps.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gstatic.cn
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,gvt5.com
+  - DOMAIN-SUFFIX,gvt6.com
+  - DOMAIN-SUFFIX,gvt7.com
+  - DOMAIN-SUFFIX,gvt9.com
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,recaptcha-cn.net
+  - DOMAIN-SUFFIX,waymo.com
+  - DOMAIN-SUFFIX,waze.com
+  - DOMAIN-SUFFIX,web.app
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,x.company
+
+  # Google AI / Gemini / AI Studio
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-KEYWORD,generativelanguage
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,developerprofiles
+
+  # Google Antigravity
+  - DOMAIN-SUFFIX,antigravity.google
+
+  # Google AI related dev / model ecosystem
+  - DOMAIN-SUFFIX,dialogflow.com
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,kaggle.io
+  - DOMAIN-SUFFIX,tensorflow.org
+  - DOMAIN-SUFFIX,tfhub.dev
+  - DOMAIN-SUFFIX,flutter.dev
+  - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,go.dev
+
+  # Google shortcuts / misc
+  - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-SUFFIX,googlesource.com
+  - DOMAIN-SUFFIX,googlephotos.com
+  - DOMAIN-SUFFIX,googleplay.com
+  - DOMAIN-SUFFIX,googlemaps.com
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-SUFFIX,googlemail.com
+
+  # Keyword catch-all
+  - DOMAIN-KEYWORD,appspot
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,recaptcha
+
+  # Optional IP / Process
+  - IP-CIDR,172.110.32.0/21,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,no-resolve
+  - PROCESS-NAME,GoogleDriveFS.exe
+  - PROCESS-NAME,com.android.vending
+  - PROCESS-NAME,com.google.android.gms
+  - PROCESS-NAME,com.google.android.gsf
+  - PROCESS-NAME,com.google.android.play.games
+  - PROCESS-NAME,BackupandSync
