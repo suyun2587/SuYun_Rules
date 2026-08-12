@@ -30,6 +30,7 @@ payload:
 
   # Grok / xAI
   - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN,accounts.x.ai
 
